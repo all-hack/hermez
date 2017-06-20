@@ -18,7 +18,9 @@ small application to send email notifications to students who have received emai
 					* intra api will be needed
 
 
-
+* links
+	* [flask](http://flask.pocoo.org/docs/0.12/quickstart/)
+	
 
 
 
