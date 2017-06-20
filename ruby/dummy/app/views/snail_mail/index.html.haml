@@ -1,0 +1,54 @@
+.container
+  .row         
+    %input.col-12{type: "text", placeholder: "Search for name...", style: "height: 60px; font-size: 22px;"}            
+  %br        
+  .row
+    .col-6
+      %h2.txt_center
+        Cadets
+      
+
+
+      %ul.list-group
+        -@cadets.each do |elem|          
+          %li.list-group-item
+            = "#{elem.name} | #{elem.login}"
+
+      /   %li.list-group-item
+      /     a
+      /   %li.list-group-item
+      /     b
+      /   %li.list-group-item
+      /     c
+      /   %li.list-group-item
+      /     d
+      /   %li.list-group-item
+      /     e
+      /   %li.list-group-item
+      /     f
+      /   %li.list-group-item
+      /     g
+      /   %li.list-group-item
+      /     h
+    .col-6
+      %h2.txt_center
+        Selected Cadets
+      %ul.list-group
+        %li.list-group-item
+          1
+        %li.list-group-item
+          2
+        %li.list-group-item
+          3
+        %li.list-group-item
+          4
+        %li.list-group-item
+          5
+        %li.list-group-item
+          6
+        %li.list-group-item
+          7
+        %li.list-group-item
+          8
+  
+  

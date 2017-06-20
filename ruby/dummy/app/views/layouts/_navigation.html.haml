@@ -1,0 +1,13 @@
+-# navigation styled for Bootstrap 3.0
+.container
+  %nav.navbar.navbar-dark.bg-inverse
+    %ul.nav.navbar-nav.clearfix
+      %li.nav-item.row{style: "background: white;"}
+        .col-md-3
+          = link_to("Hermez", root_path, {style:"font-weight: bold; font-size: 35px; color: black; font-family: sans-serif;"})            
+        .col-md-4{style: "text-align: center;"}
+          = link_to("Add New Person", cadet_path, {style:"font-weight: bold; font-size: 35px; color: black; font-family: sans-serif;"})
+        %button.btn.btn-link.text-danger.col-md-3.js_clear_list{style:"font-size: 30px; font-weight: bold;"}
+          Clear List
+        %button.btn.btn-link.text-primary.col-md-2.js_send{style:"font-size: 30px; font-weight: bold;"}
+          Send

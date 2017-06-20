@@ -1,0 +1,2 @@
+module CadetHelper
+end
