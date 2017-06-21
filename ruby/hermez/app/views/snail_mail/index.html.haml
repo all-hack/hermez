@@ -10,45 +10,32 @@
 
 
       %ul.list-group
-        -@cadets.each do |elem|          
-          %li.list-group-item
-            = "#{elem.name} | #{elem.login}"
+        -@cadets.each do |elem|
+          = form_for :list, :url => {:controller => 'snail_mail', :action => 'select_cadet'} do |f|      
+            %li.list-group-item
+              .input-group
+                = hidden_field_tag :cadet_login, "", value: "#{elem.login}", class: "form-control hidden"
+              .col-9
+                = "#{elem.name} | #{elem.login}"
+              = submit_tag :submit, class: "submit col-3"
 
-      /   %li.list-group-item
-      /     a
-      /   %li.list-group-item
-      /     b
-      /   %li.list-group-item
-      /     c
-      /   %li.list-group-item
-      /     d
-      /   %li.list-group-item
-      /     e
-      /   %li.list-group-item
-      /     f
-      /   %li.list-group-item
-      /     g
-      /   %li.list-group-item
-      /     h
     .col-6
       %h2.txt_center
         Selected Cadets
       %ul.list-group
-        %li.list-group-item
-          1
-        %li.list-group-item
-          2
-        %li.list-group-item
-          3
-        %li.list-group-item
-          4
-        %li.list-group-item
-          5
-        %li.list-group-item
-          6
-        %li.list-group-item
-          7
-        %li.list-group-item
-          8
+        -@selected_cadets.each do |elem|
+          = form_for :list, :url => {:controller => 'snail_mail', :action => 'deselect_cadet'} do |f|      
+            %li.list-group-item
+              .input-group
+                = hidden_field_tag :cadet_login, "", value: "#{elem.login}", class: "form-control hidden"
+              .col-9
+                = "#{elem.name} | #{elem.login}"
+              = submit_tag :remove, class: "submit btn-danger col-3"
   
-  
+:javascript
+    $(document).ready( function() {      
+    
+    } );
+
+
+

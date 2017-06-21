@@ -7,8 +7,8 @@ class CadetController < ApplicationController
   def create
     @cadet = Cadet.new
     
-    @cadet.name = params[:name]
-    @cadet.login = params[:login]
+    @cadet.name = params[:name].downcase
+    @cadet.login = params[:login].downcase
 
     if @cadet.save
       flash.now[:notice] = "Cadet, #{@cadet.login} successfully added to datastore"
