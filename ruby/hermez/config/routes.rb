@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   
   post 'snail_mail/select_cadet', to:'snail_mail#select_cadet'
   post 'snail_mail/deselect_cadet', to:'snail_mail#deselect_cadet'
-  post 'snail_mail/clear_list', to:'snail_mail#clear_list'
+  get 'snail_mail/clear_list', to:'snail_mail#clear_list'
 
   root to: 'snail_mail#index'
 end
