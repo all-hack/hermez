@@ -3,9 +3,7 @@
   %nav.navbar.navbar-dark.bg-inverse
     %ul.nav.navbar-nav.clearfix
       %li.nav-item.row{style: "background: white;"}        
-        = link_to("Hermez", root_path, {class: "btn btn-link col-md-3", style: "font-size: 30px; font-weight: bold; color: black;"})            
+        = link_to("Hermez", root_path, {class: "btn btn-link col-md-3", style: "font-size: 30px; font-weight: bold; color: #DAA520; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"})
         = link_to("Add New Person", cadet_path, {class: "btn btn-link col-md-4", style: "font-size: 30px; font-weight: bold; color: black;"})
         = link_to("Clear List", 'snail_mail/clear_list', {class: "btn btn-link text-danger col-md-3", style: "font-size: 30px; font-weight: bold;"})         
-        = link_to("Send", 'snail_mail/send', {class: "btn btn-link text-primary col-md-2", style: "font-size: 30px; font-weight: bold;"})          
-        / %button.btn.btn-link.text-primary.col-md-2.js_send{style:"font-size: 30px; font-weight: bold;"}
-        / Send
+        = link_to("Send", 'snail_mail/send', {class: "btn btn-link text-primary col-md-2", style: "font-size: 30px; font-weight: bold;"})        
