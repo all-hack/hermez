@@ -65,7 +65,7 @@ class ListSelected < ApplicationRecord
 
   def get_selected_cadets_emails
     cadets_list = self.get_selected_cadets
-    email_list = cadets_list.collect { |cadet| cadet.email}    
+    email_list = cadets_list.collect { |cadet| }
   end
 
 

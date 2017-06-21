@@ -12,5 +12,7 @@ Rails.application.routes.draw do
 
   get 'snail_mail/send', to: 'snail_mail#send_email'
 
+  post 'cadet/import', to: 'cadet#import_cadets_fremont'
+
   root to: 'snail_mail#index'
 end

@@ -1,6 +1,17 @@
 .container
   .row
     %h1
+      Automatically import current 42 cursus cadets
+  %br
+  .row
+    = form_for :cadet, :url => {:controller => 'cadet', :action => 'import_cadets_fremont'} do |f|      
+      / %br
+      = submit_tag :import, class: "btn btn-primary"
+  %br
+  %br
+  %br
+  .row
+    %h1
       Manually add a cadet to the datastore
   %br
   .row
@@ -17,5 +28,4 @@
 
       %br
       = submit_tag :submit, class: "btn btn-primary"
-      
 
