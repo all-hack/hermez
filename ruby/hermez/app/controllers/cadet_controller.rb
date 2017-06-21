@@ -9,6 +9,7 @@ class CadetController < ApplicationController
     
     @cadet.name = params[:name].downcase
     @cadet.login = params[:login].downcase
+    @cadet.email = params[:login].downcase + '@student.42.us.org'
 
     if @cadet.save
       flash.now[:notice] = "Cadet, #{@cadet.login} successfully added to datastore"

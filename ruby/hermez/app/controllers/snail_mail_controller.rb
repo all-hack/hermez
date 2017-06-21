@@ -2,7 +2,7 @@ class SnailMailController < ApplicationController
   
 
   def index
-    @cadets = Cadet.all
+    @cadets = Cadet.all    
     list = ListSelected.first
     @selected_cadets = []
     if list
@@ -29,14 +29,25 @@ class SnailMailController < ApplicationController
     redirect_to root_path
   end
 
-
   def clear_list
-    ListSelected.first.destroy
+    
+    if list = ListSelected.first
+      list.destroy
+    end
 
     redirect_to root_path
   end
 
+  def send_email
+    if list = ListSelected.first
+      if list.cadet_list != ""        
+        ApplicationMailer.mail_received(list).deliver
+        list.destroy
+      end
+    end
 
+    redirect_to root_path
+  end
 
 
 end

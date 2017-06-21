@@ -10,5 +10,7 @@ Rails.application.routes.draw do
   post 'snail_mail/deselect_cadet', to:'snail_mail#deselect_cadet'
   get 'snail_mail/clear_list', to:'snail_mail#clear_list'
 
+  get 'snail_mail/send', to: 'snail_mail#send_email'
+
   root to: 'snail_mail#index'
 end

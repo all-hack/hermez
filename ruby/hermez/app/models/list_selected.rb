@@ -53,7 +53,6 @@ class ListSelected < ApplicationRecord
   def get_selected_cadets
     cadet_id_list = self.get_cadet_list
     cadet_list = []
-    puts cadet_id_list
     cadet_id_list.each do |id|      
       if id == ""
         ;
@@ -64,7 +63,10 @@ class ListSelected < ApplicationRecord
     return cadet_list
   end
 
-
+  def get_selected_cadets_emails
+    cadets_list = self.get_selected_cadets
+    email_list = cadets_list.collect { |cadet| cadet.email}    
+  end
 
 
 
