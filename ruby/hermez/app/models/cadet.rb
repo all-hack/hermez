@@ -21,6 +21,9 @@ class Cadet < ApplicationRecord
           cadet.name = cadet_json["first_name"] + " " + cadet_json["last_name"]
           cadet.login = cadet_json['login']          
           cadet.email = cadet_json['email']
+          cadet.mails_received = 0
+
+          puts cadet_json['login'], cadet_json["first_name"] + " " + cadet_json["last_name"], cadet_json['email']
 
           if cadet.save      
             success += 1
@@ -29,7 +32,9 @@ class Cadet < ApplicationRecord
             fail += 1
             total   += 1   
           end          
-                      
+            
+
+
       rescue StandardError => e        
           puts "error in Cadet.import_cadets"          
           puts e
@@ -38,7 +43,7 @@ class Cadet < ApplicationRecord
       end
     end
 
-    return {success: success.to_s, fail: fail.to_s, total: total.to_s}
+    return [success, fail, total]
 
   end
 
