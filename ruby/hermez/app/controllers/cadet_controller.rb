@@ -12,7 +12,6 @@ class CadetController < ApplicationController
     @cadet.email = params[:login].downcase + '@student.42.us.org'
     @cadet.mails_received = 0
 
-
     if @cadet.save      
       redirect_to cadet_path, :flash => { :notice => "Cadet, #{@cadet.login} successfully added to datastore"}
     else
@@ -28,30 +27,40 @@ class CadetController < ApplicationController
     # Get an access token
     token = client.client_credentials.get_token
 
-    page_num = 1
+    page_num = 0
+    page_og = page_num
     page_size = 100
-    page_limit = 100
-    flag = true
-    
-    #success, fail, total
-    results = [0, 0, 0]
+    page_limit = 9999
+    cadet_count = Cadet.count
+
+    puts "current number of cadets: #{cadet_count}"
     while (page_num < page_limit)
       begin
-          cadet_json_list = token.get("/v2/campus/7/users", params: {page: {number: page_num, size: page_size}}).parsed          
-          puts cadet_json_list          
-          hash = Cadet.import_cadets(cadet_json_list)
-          results[0] += hash[0]
-          results[1] += hash[1]
-          results[2] += hash[2]
-          page_num += 1
+        cadet_json_list = token.get("/v2/campus/7/users", params: {page: {number: page_num, size: page_size}}).parsed          
+        print "\n"
+        puts "page number: #{page_num}"
+        puts cadet_json_list          
+        print "\n"
+        
+        if cadet_json_list.empty? == true
+          puts "response from api empty"
+          break
+        end
+        
+        hash = Cadet.import_cadets(cadet_json_list)
+        page_num += 1
+
       rescue StandardError => e        
-          puts "error in cadet#import_cadets_fremont"
-          puts e
-          break     
+        puts "error in cadet#import_cadets_fremont"
+        puts e
       end
     end    
 
-    redirect_to cadet_path, :flash => { :notice => "Import results: success: #{results[0].to_s}, failed: #{results[1].to_s}, total: #{results[2].to_s}" }
+    updated_cadet_count = 0
+    Cadet.uncached do 
+      updated_cadet_count = Cadet.count
+    end
+    redirect_to cadet_path, :flash => { :notice => "#{updated_cadet_count - cadet_count} cadets imported, #{page_num - page_og} pages of #{page_size} entries pulled" }
   end
 
 

@@ -5,8 +5,10 @@
   %br
   .row
     = form_for :cadet, :url => {:controller => 'cadet', :action => 'import_cadets_fremont'} do |f|      
-      / %br
+        
       = submit_tag :import, class: "btn btn-primary"
+      = label_tag :cadet_name, "This will take a while (3-5 minutes) please be patient...", style: "font-weight: bold;"
+
   %br
   %br
   %br

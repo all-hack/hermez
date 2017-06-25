@@ -1,9 +1,7 @@
 class ApplicationMailer < ActionMailer::Base
   default from: "hermez@42.us.org"
 
-  def mail_received(list)
-    
-    emails = list.get_selected_cadets_emails
+  def mail_received(list, emails)    
     mail(to: ENV['MAIL_42_U'],
          bcc: emails,
          body: "Good news,

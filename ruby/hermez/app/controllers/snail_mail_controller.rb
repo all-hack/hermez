@@ -8,6 +8,8 @@ class SnailMailController < ApplicationController
     if list
       @selected_cadets = list.get_selected_cadets
     end
+    @cadets = @cadets - @selected_cadets
+    @cadets.sort!
   end
 
 
@@ -40,8 +42,16 @@ class SnailMailController < ApplicationController
 
   def send_email
     if list = ListSelected.first
-      if list.cadet_list != ""        
-        ApplicationMailer.mail_received(list).deliver
+      if list.cadet_list != ""
+        emails = list.get_selected_cadets.collect do |cadet|
+          cadet.mails_received += 1
+          cadet.save
+          cadet.last_mail = cadet.updated_at
+          cadet.save
+          cadet.email
+        end
+        puts emails
+        # ApplicationMailer.mail_received(list, emails).deliver
         list.destroy
       end
     end
