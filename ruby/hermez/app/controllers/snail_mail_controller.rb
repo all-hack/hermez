@@ -1,17 +1,25 @@
 class SnailMailController < ApplicationController
   
-
   def index
-    @cadets = Cadet.all    
+    @filterrific = initialize_filterrific(
+      Cadet,      
+      :search_query => params[:search_query]
+    ) or return
+
+    if params[:search_query] == [""] or params.key?(:search_query) == false
+      @cadets = Cadet.most_mail
+    else
+      @cadets = @filterrific.find.sort_by {|cadet| cadet.name}
+    end
+
     list = ListSelected.first
     @selected_cadets = []
     if list
-      @selected_cadets = list.get_selected_cadets
+      @selected_cadets = list.get_selected_cadets      
     end
-    @cadets = @cadets - @selected_cadets
-    @cadets.sort!
-  end
 
+    # @cadets = @cadets - @selected_cadets
+  end
 
   def select_cadet
 
@@ -43,20 +51,21 @@ class SnailMailController < ApplicationController
   def send_email
     if list = ListSelected.first
       if list.cadet_list != ""
-        emails = list.get_selected_cadets.collect do |cadet|
+        selected = list.get_selected_cadets
+        emails = selected.collect do |cadet|
           cadet.mails_received += 1
           cadet.save
           cadet.last_mail = cadet.updated_at
           cadet.save
           cadet.email
         end
-        puts emails
-        # ApplicationMailer.mail_received(list, emails).deliver
+        puts emails.class
+        ApplicationMailer.mail_received(list, emails).deliver
         list.destroy
       end
     end
 
-    redirect_to root_path
+    redirect_to root_path, :flash => { :notice => "notifications have been sent to #{selected.count} people" }
   end
 
 

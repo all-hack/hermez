@@ -11,6 +11,7 @@ class CadetController < ApplicationController
     @cadet.login = params[:login].downcase
     @cadet.email = params[:login].downcase + '@student.42.us.org'
     @cadet.mails_received = 0
+    @cadet.piscine = if params[:cadet][:piscine] == "yes" then true else false end
 
     if @cadet.save      
       redirect_to cadet_path, :flash => { :notice => "Cadet, #{@cadet.login} successfully added to datastore"}
