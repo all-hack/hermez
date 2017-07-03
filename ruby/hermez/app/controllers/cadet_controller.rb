@@ -28,11 +28,18 @@ class CadetController < ApplicationController
     # Get an access token
     token = client.client_credentials.get_token
 
+    sql = "delete from cadets where piscine=true"
+    records_array = ActiveRecord::Base.connection.execute(sql)
+    ActiveRecord::Base.clear_all_connections!
+    puts "old piscine users deleted!"
+
     page_num = 0
     page_og = page_num
     page_size = 100
     page_limit = 9999
     cadet_count = Cadet.count
+
+
 
     puts "current number of cadets: #{cadet_count}"
     while (page_num < page_limit)

@@ -1,5 +1,8 @@
 class ListSelected < ApplicationRecord
-
+  # => i really didn't the way ActiveRecord wanted to handle 
+  # => the has_many to belongs_to association between cadets 
+  # => and lists so i made my own hack 
+  
   def self.new_list
     if ListSelected.count == 0
       @list = ListSelected.new            

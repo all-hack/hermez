@@ -25,26 +25,22 @@ class Cadet < ApplicationRecord
 
 
   def self.piscine_validation(cadet_json)    
-    # puts "0"
     piscine_month = cadet_json['pool_month'].downcase
-    # puts "2"
     piscine_year = cadet_json['pool_year'].downcase
-    # puts "3"
     cur_month = Date::MONTHNAMES[Date.current.month].downcase
     last_month = if Date.current.month > 1 then Date.current.month - 1 else 12 end
     last_month = Date::MONTHNAMES[last_month].downcase
     nxt_month = if Date.current.month < 12 then Date.current.month + 1 else 1 end
     nxt_month = Date::MONTHNAMES[nxt_month].downcase
-    # puts "4"    
     cur_year =  Date.current.year.to_s
 
-    puts "login: #{cadet_json['login']}"
-    puts "piscine_month: #{piscine_month}"
-    puts "piscine_year: #{piscine_year}"
-    puts "cur_month: #{cur_month}"
-    puts "last_month: #{last_month}"
-    puts "nxt_month: #{nxt_month}"
-    puts "cur_year: #{cur_year}"
+    # puts "login: #{cadet_json['login']}"
+    # puts "piscine_month: #{piscine_month}"
+    # puts "piscine_year: #{piscine_year}"
+    # puts "cur_month: #{cur_month}"
+    # puts "last_month: #{last_month}"
+    # puts "nxt_month: #{nxt_month}"
+    # puts "cur_year: #{cur_year}"
 
     if (
       (piscine_month == cur_month or 
@@ -69,11 +65,6 @@ class Cadet < ApplicationRecord
     token = client.client_credentials.get_token    
     # cursus_id: 1 => 42 cursus, cursus_id: 4 => picine c cursus
     valid_cursus = [1, 4]
-
-    sql = "delete from cadets where piscine=true"
-    records_array = ActiveRecord::Base.connection.execute(sql)
-    ActiveRecord::Base.clear_all_connections!
-    puts "old piscine users deleted!"
 
     Parallel.each( -> { cadet_json_list.pop || Parallel::Stop }, in_threads: 40) do |hash|
       begin
