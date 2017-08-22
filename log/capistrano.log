@@ -1,0 +1,974 @@
+# Logfile created on 2017-07-26 15:38:55 -0700 by logger.rb/54362
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-26 15:38:55 -0700 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-26 15:40:49 -0700 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-26 15:40:50 -0700 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-26 15:42:00 -0700 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-26 15:42:11 -0700 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-26 15:43:33 -0700 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-26 15:44:09 -0700 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [c2cd12d4] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [c2cd12d4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c2cd12d4] Finished in 0.165 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [c154e978] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [c154e978] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [c154e978] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [e7991092] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [e7991092] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [e7991092] 	Warning: Permanently added 'github.com,192.30.255.113' (RSA) to the list of known hosts.
+ DEBUG [e7991092] 	
+ DEBUG [e7991092] 	Permission denied (publickey).
+ DEBUG [e7991092] 	
+ DEBUG [e7991092] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-26 15:44:36 -0700 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [4cbba36b] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [4cbba36b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4cbba36b] Finished in 0.159 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [217ab11b] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [217ab11b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [217ab11b] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [ad61f84e] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [ad61f84e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [ad61f84e] 	Warning: Permanently added the RSA host key for IP address '192.30.255.112' to the list of known hosts.
+ DEBUG [ad61f84e] 	
+ DEBUG [ad61f84e] 	Permission denied (publickey).
+ DEBUG [ad61f84e] 	
+ DEBUG [ad61f84e] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-26 15:48:36 -0700 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [4f16048f] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [4f16048f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4f16048f] Finished in 0.175 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [83653768] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [83653768] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [83653768] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [ef2b656b] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [ef2b656b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [ef2b656b] 	Permission denied (publickey).
+ DEBUG [ef2b656b] 	
+ DEBUG [ef2b656b] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-26 15:49:27 -0700 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [df2b30e6] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [df2b30e6] Command: /usr/bin/env mkdir -p /tmp
+  INFO [df2b30e6] Finished in 0.166 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [786fe2c9] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [786fe2c9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [786fe2c9] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [4c91c4b6] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [4c91c4b6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [4c91c4b6] 	Permission denied (publickey).
+ DEBUG [4c91c4b6] 	
+ DEBUG [4c91c4b6] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-27 11:52:38 -0700 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [d289e274] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [d289e274] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d289e274] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [5bdc8912] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [5bdc8912] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [5bdc8912] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [5f0ae08a] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [5f0ae08a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [5f0ae08a] 	a0ace58c13d41a637172c463d5235d84c4172d0d	HEAD
+  INFO [5f0ae08a] Finished in 0.414 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-27 11:52:42 -0700 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [0b0b4fae] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [0b0b4fae] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0b0b4fae] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [76526179] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [76526179] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [76526179] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [3c3d9efb] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [3c3d9efb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [3c3d9efb] 	a0ace58c13d41a637172c463d5235d84c4172d0d	HEAD
+  INFO [3c3d9efb] Finished in 0.408 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-27 11:52:45 -0700 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [8251761b] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [8251761b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8251761b] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [feb85326] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [feb85326] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [feb85326] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [29af845c] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [29af845c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [29af845c] 	a0ace58c13d41a637172c463d5235d84c4172d0d	HEAD
+  INFO [29af845c] Finished in 0.402 seconds with exit status 0 (successful).
+  INFO [d4b680db] Running /usr/bin/env mkdir -p /var/www/html/hermezs/shared /var/www/html/hermezs/releases as root@hermes-host.42.us.org
+ DEBUG [d4b680db] Command: /usr/bin/env mkdir -p /var/www/html/hermezs/shared /var/www/html/hermezs/releases
+  INFO [d4b680db] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [3899a163] Running /usr/bin/env mkdir -p /var/www/html/hermezs/shared/log /var/www/html/hermezs/shared/tmp/pids /var/www/html/hermezs/shared/tmp/cache /var/www/html/hermezs/shared/tmp/sockets /var/www/html/hermezs/shared/vendor/bundle /var/www/html/hermezs/shared/public/system /var/www/html/hermezs/shared/public/uploads /var/www/html/hermezs/shared/public/assets as root@hermes-host.42.us.org
+ DEBUG [3899a163] Command: /usr/bin/env mkdir -p /var/www/html/hermezs/shared/log /var/www/html/hermezs/shared/tmp/pids /var/www/html/hermezs/shared/tmp/cache /var/www/html/hermezs/shared/tmp/sockets /var/www/html/hermezs/shared/vendor/bundle /var/www/html/hermezs/shared/public/system /var/www/html/hermezs/shared/public/uploads /var/www/html/hermezs/shared/public/assets
+  INFO [3899a163] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [27ba6782] Running /usr/bin/env mkdir -p /var/www/html/hermezs/shared/config as root@hermes-host.42.us.org
+ DEBUG [27ba6782] Command: /usr/bin/env mkdir -p /var/www/html/hermezs/shared/config
+  INFO [27ba6782] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [91960446] Running [ -f /var/www/html/hermezs/shared/config/database.yml ] as root@hermes-host.42.us.org
+ DEBUG [91960446] Command: [ -f /var/www/html/hermezs/shared/config/database.yml ]
+ DEBUG [91960446] Finished in 0.012 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/html/hermezs/shared/config/database.yml does not exist on hermes-host.42.us.org
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-27 11:53:38 -0700 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [7b0faaa4] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [7b0faaa4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7b0faaa4] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [c1d4afef] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [c1d4afef] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [c1d4afef] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [06a7c6be] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [06a7c6be] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [06a7c6be] 	a0ace58c13d41a637172c463d5235d84c4172d0d	HEAD
+  INFO [06a7c6be] Finished in 0.402 seconds with exit status 0 (successful).
+  INFO [2f7748ac] Running /usr/bin/env mkdir -p /var/www/html/hermezs/shared /var/www/html/hermezs/releases as root@hermes-host.42.us.org
+ DEBUG [2f7748ac] Command: /usr/bin/env mkdir -p /var/www/html/hermezs/shared /var/www/html/hermezs/releases
+  INFO [2f7748ac] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [6cf3baa1] Running /usr/bin/env mkdir -p /var/www/html/hermezs/shared/public/assets as root@hermes-host.42.us.org
+ DEBUG [6cf3baa1] Command: /usr/bin/env mkdir -p /var/www/html/hermezs/shared/public/assets
+  INFO [6cf3baa1] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-27 11:53:51 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e2d384e0] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [e2d384e0] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e2d384e0] Finished in 0.134 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [23c303c5] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [23c303c5] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [23c303c5] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [03f663c0] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [03f663c0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [03f663c0] 	a0ace58c13d41a637172c463d5235d84c4172d0d	HEAD
+  INFO [03f663c0] Finished in 0.412 seconds with exit status 0 (successful).
+  INFO [f67ff76f] Running /usr/bin/env mkdir -p /var/www/html/hermezs/shared /var/www/html/hermezs/releases as root@hermes-host.42.us.org
+ DEBUG [f67ff76f] Command: /usr/bin/env mkdir -p /var/www/html/hermezs/shared /var/www/html/hermezs/releases
+  INFO [f67ff76f] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [e6d533bc] Running /usr/bin/env mkdir -p /var/www/html/hermezs/shared/public/assets as root@hermes-host.42.us.org
+ DEBUG [e6d533bc] Command: /usr/bin/env mkdir -p /var/www/html/hermezs/shared/public/assets
+  INFO [e6d533bc] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG [6b32a76c] Running [ -f /var/www/html/hermezs/current/REVISION ] as root@hermes-host.42.us.org
+ DEBUG [6b32a76c] Command: [ -f /var/www/html/hermezs/current/REVISION ]
+ DEBUG [6b32a76c] Finished in 0.011 seconds with exit status 1 (failed).
+ DEBUG [de66cee1] Running [ -f /var/www/html/hermezs/repo/HEAD ] as root@hermes-host.42.us.org
+ DEBUG [de66cee1] Command: [ -f /var/www/html/hermezs/repo/HEAD ]
+ DEBUG [de66cee1] Finished in 0.011 seconds with exit status 1 (failed).
+ DEBUG [07618648] Running if test ! -d /var/www/html/hermezs; then echo "Directory does not exist '/var/www/html/hermezs'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [07618648] Command: if test ! -d /var/www/html/hermezs; then echo "Directory does not exist '/var/www/html/hermezs'" 1>&2; false; fi
+ DEBUG [07618648] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [d2f80668] Running /usr/bin/env git clone --mirror git@github.com:all-hack/hermez.git /var/www/html/hermezs/repo as root@hermes-host.42.us.org
+ DEBUG [d2f80668] Command: cd /var/www/html/hermezs && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git clone --mirror git@github.com:all-hack/hermez.git /var/www/html/hermezs/repo )
+ DEBUG [d2f80668] 	Cloning into bare repository '/var/www/html/hermezs/repo'...
+ DEBUG [d2f80668] 	
+ DEBUG [d2f80668] 	remote: Counting objects: 1158, done.[K
+ DEBUG [d2f80668] 	
+ DEBUG [d2f80668] 	remote: Compressing objects:   0% (1/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:   1% (7/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:   2% (14/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:   3% (21/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:   4% (27/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:   5% (34/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:   6% (41/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:   7% (47/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:   8% (54/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:   9% (61/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  10% (67/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  11% (74/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  12% (81/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  13% (87/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  14% (94/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  15% (101/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  16% (107/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  17% (114/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  18% (121/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  19% (127/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  20% (134/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  21% (141/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  22% (147/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  23% (154/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  24% (161/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  25% (167/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  26% (174/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  27% (181/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  28% (187/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  29% (194/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  30% (201/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  31% (207/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  32% (214/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  33% (221/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  34% (227/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  35% (234/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  36% (241/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  37% (247/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  38% (254/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  39% (261/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  40% (267/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  41% (274/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  42% (281/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  43% (287/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  44% (294/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  45% (301/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  46% (307/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  47% (314/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  48% (321/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  49% (327/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  50% (334/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  51% (341/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  52% (347/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  53% (354/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  54% (361/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  55% (367/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  56% (374/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  57% (381/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  58% (387/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  59% (394/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  60% (401/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  61% (407/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  62% (414/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  63% (421/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  64% (427/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  65% (434/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  66% (441/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  67% (447/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  68% (454/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  69% (461/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  70% (467/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  71% (474/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  72% (481/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  73% (487/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  74% (494/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  75% (501/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  76% (507/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  77% (514/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  78% (521/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  79% (527/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  80% (534/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  81% (541/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  82% (547/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  83% (554/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  84% (561/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  85% (567/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  86% (574/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  87% (581/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  88% (587/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  89% (594/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  90% (601/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  91% (607/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  92% (614/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  93% (621/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  94% (627/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  95% (634/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  96% (641/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  97% (647/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  98% (654/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects:  99% (661/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects: 100% (667/667)   [K
+ DEBUG [d2f80668] 	remote: Compressing objects: 100% (667/667), done.[K
+ DEBUG [d2f80668] 	
+ DEBUG [d2f80668] 	Receiving objects:   0% (1/1158)   
+ DEBUG [d2f80668] 	Receiving objects:   1% (12/1158)   
+ DEBUG [d2f80668] 	Receiving objects:   2% (24/1158)   
+ DEBUG [d2f80668] 	Receiving objects:   3% (35/1158)   
+ DEBUG [d2f80668] 	Receiving objects:   4% (47/1158)   
+ DEBUG [d2f80668] 	Receiving objects:   5% (58/1158)   
+ DEBUG [d2f80668] 	Receiving objects:   6% (70/1158)   
+ DEBUG [d2f80668] 	Receiving objects:   7% (82/1158)   
+ DEBUG [d2f80668] 	Receiving objects:   8% (93/1158)   
+ DEBUG [d2f80668] 	Receiving objects:   9% (105/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  10% (116/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  11% (128/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  12% (139/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  13% (151/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  14% (163/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  15% (174/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  16% (186/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  17% (197/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  18% (209/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  19% (221/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  20% (232/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  21% (244/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  22% (255/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  23% (267/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  24% (278/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  25% (290/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  26% (302/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  27% (313/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  28% (325/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  29% (336/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  30% (348/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  31% (359/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  32% (371/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  33% (383/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  34% (394/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  35% (406/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  36% (417/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  37% (429/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  38% (441/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  39% (452/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  40% (464/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  41% (475/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  42% (487/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  43% (498/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  44% (510/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  45% (522/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  46% (533/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  47% (545/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  48% (556/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  49% (568/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  50% (579/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  51% (591/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  52% (603/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  53% (614/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  54% (626/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  55% (637/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  56% (649/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  57% (661/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  58% (672/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  59% (684/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  60% (695/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  61% (707/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  62% (718/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  63% (730/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  64% (742/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  65% (753/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  66% (765/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  67% (776/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  68% (788/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  69% (800/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  70% (811/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  71% (823/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  72% (834/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  73% (846/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  74% (857/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  75% (869/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  76% (881/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  77% (892/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  78% (904/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  79% (915/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  80% (927/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  81% (938/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  82% (950/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  83% (962/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  84% (973/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  85% (985/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  86% (996/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  87% (1008/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  88% (1020/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  89% (1031/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  90% (1043/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  91% (1054/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  92% (1066/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  93% (1077/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  94% (1089/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  95% (1101/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  96% (1112/1158)   
+ DEBUG [d2f80668] 	remote: Total 1158 (delta 28), reused 828 (delta 28), pack-reused 330[K
+ DEBUG [d2f80668] 	Receiving objects:  97% (1124/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  98% (1135/1158)   
+ DEBUG [d2f80668] 	Receiving objects:  99% (1147/1158)   
+ DEBUG [d2f80668] 	Receiving objects: 100% (1158/1158)   
+ DEBUG [d2f80668] 	Receiving objects: 100% (1158/1158), 3.12 MiB | 0 bytes/s, done.
+ DEBUG [d2f80668] 	
+ DEBUG [d2f80668] 	Resolving deltas:   0% (1/154)   
+ DEBUG [d2f80668] 	Resolving deltas:   1% (2/154)   
+ DEBUG [d2f80668] 	Resolving deltas:   7% (11/154)   
+ DEBUG [d2f80668] 	Resolving deltas:   9% (14/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  11% (17/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  12% (19/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  13% (21/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  14% (22/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  18% (29/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  23% (36/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  25% (40/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  27% (43/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  31% (49/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  35% (55/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  38% (59/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  40% (62/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  42% (66/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  43% (67/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  46% (71/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  50% (77/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  51% (80/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  54% (84/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  57% (88/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  59% (92/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  61% (94/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  62% (96/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  63% (98/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  64% (99/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  73% (113/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  74% (115/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  76% (118/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  78% (121/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  79% (123/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  80% (124/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  81% (126/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  85% (131/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  87% (135/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  89% (138/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  91% (141/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  92% (142/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  93% (144/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  94% (146/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  95% (147/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  96% (148/154)   
+ DEBUG [d2f80668] 	Resolving deltas:  98% (151/154)   
+ DEBUG [d2f80668] 	Resolving deltas: 100% (154/154)   
+ DEBUG [d2f80668] 	Resolving deltas: 100% (154/154), done.
+ DEBUG [d2f80668] 	
+ DEBUG [d2f80668] 	Checking connectivity... 
+ DEBUG [d2f80668] 	done.
+  INFO [d2f80668] Finished in 0.745 seconds with exit status 0 (successful).
+ DEBUG [adf7548b] Running if test ! -d /var/www/html/hermezs/repo; then echo "Directory does not exist '/var/www/html/hermezs/repo'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [adf7548b] Command: if test ! -d /var/www/html/hermezs/repo; then echo "Directory does not exist '/var/www/html/hermezs/repo'" 1>&2; false; fi
+ DEBUG [adf7548b] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [c774c102] Running /usr/bin/env git remote set-url origin git@github.com:all-hack/hermez.git as root@hermes-host.42.us.org
+ DEBUG [c774c102] Command: cd /var/www/html/hermezs/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git remote set-url origin git@github.com:all-hack/hermez.git )
+  INFO [c774c102] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [5d5fa2bc] Running /usr/bin/env git remote update --prune as root@hermes-host.42.us.org
+ DEBUG [5d5fa2bc] Command: cd /var/www/html/hermezs/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [5d5fa2bc] 	Fetching origin
+ DEBUG [5d5fa2bc] 	
+  INFO [5d5fa2bc] Finished in 0.415 seconds with exit status 0 (successful).
+ DEBUG [fc8883cd] Running if test ! -d /var/www/html/hermezs/repo; then echo "Directory does not exist '/var/www/html/hermezs/repo'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [fc8883cd] Command: if test ! -d /var/www/html/hermezs/repo; then echo "Directory does not exist '/var/www/html/hermezs/repo'" 1>&2; false; fi
+ DEBUG [fc8883cd] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [dcf9c2a7] Running /usr/bin/env mkdir -p /var/www/html/hermezs/releases/20170727185351 as root@hermes-host.42.us.org
+ DEBUG [dcf9c2a7] Command: cd /var/www/html/hermezs/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env mkdir -p /var/www/html/hermezs/releases/20170727185351 )
+  INFO [dcf9c2a7] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [5752ccb2] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/hermezs/releases/20170727185351 as root@hermes-host.42.us.org
+ DEBUG [5752ccb2] Command: cd /var/www/html/hermezs/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/hermezs/releases/20170727185351 )
+  INFO [5752ccb2] Finished in 0.158 seconds with exit status 0 (successful).
+ DEBUG [63b1d49a] Running if test ! -d /var/www/html/hermezs/repo; then echo "Directory does not exist '/var/www/html/hermezs/repo'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [63b1d49a] Command: if test ! -d /var/www/html/hermezs/repo; then echo "Directory does not exist '/var/www/html/hermezs/repo'" 1>&2; false; fi
+ DEBUG [63b1d49a] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [a846b458] Running /usr/bin/env git rev-list --max-count=1 master as root@hermes-host.42.us.org
+ DEBUG [a846b458] Command: cd /var/www/html/hermezs/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [a846b458] 	a0ace58c13d41a637172c463d5235d84c4172d0d
+ DEBUG [a846b458] 	
+ DEBUG [a846b458] Finished in 0.029 seconds with exit status 0 (successful).
+ DEBUG [2473e514] Running if test ! -d /var/www/html/hermezs/releases/20170727185351; then echo "Directory does not exist '/var/www/html/hermezs/releases/20170727185351'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [2473e514] Command: if test ! -d /var/www/html/hermezs/releases/20170727185351; then echo "Directory does not exist '/var/www/html/hermezs/releases/20170727185351'" 1>&2; false; fi
+ DEBUG [2473e514] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [4ac6f8f1] Running /usr/bin/env echo "a0ace58c13d41a637172c463d5235d84c4172d0d" >> REVISION as root@hermes-host.42.us.org
+ DEBUG [4ac6f8f1] Command: cd /var/www/html/hermezs/releases/20170727185351 && /usr/bin/env echo "a0ace58c13d41a637172c463d5235d84c4172d0d" >> REVISION
+  INFO [4ac6f8f1] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [29da0da0] Running /usr/bin/env mkdir -p /var/www/html/hermezs/releases/20170727185351/public as root@hermes-host.42.us.org
+ DEBUG [29da0da0] Command: /usr/bin/env mkdir -p /var/www/html/hermezs/releases/20170727185351/public
+  INFO [29da0da0] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG [b6f7a97b] Running [ -L /var/www/html/hermezs/releases/20170727185351/public/assets ] as root@hermes-host.42.us.org
+ DEBUG [b6f7a97b] Command: [ -L /var/www/html/hermezs/releases/20170727185351/public/assets ]
+ DEBUG [b6f7a97b] Finished in 0.016 seconds with exit status 1 (failed).
+ DEBUG [027e7e15] Running [ -d /var/www/html/hermezs/releases/20170727185351/public/assets ] as root@hermes-host.42.us.org
+ DEBUG [027e7e15] Command: [ -d /var/www/html/hermezs/releases/20170727185351/public/assets ]
+ DEBUG [027e7e15] Finished in 0.011 seconds with exit status 1 (failed).
+  INFO [c26e9894] Running /usr/bin/env ln -s /var/www/html/hermezs/shared/public/assets /var/www/html/hermezs/releases/20170727185351/public/assets as root@hermes-host.42.us.org
+ DEBUG [c26e9894] Command: /usr/bin/env ln -s /var/www/html/hermezs/shared/public/assets /var/www/html/hermezs/releases/20170727185351/public/assets
+  INFO [c26e9894] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [b7e3b8cc] Running if test ! -d /var/www/html/hermezs/releases/20170727185351; then echo "Directory does not exist '/var/www/html/hermezs/releases/20170727185351'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [b7e3b8cc] Command: if test ! -d /var/www/html/hermezs/releases/20170727185351; then echo "Directory does not exist '/var/www/html/hermezs/releases/20170727185351'" 1>&2; false; fi
+ DEBUG [b7e3b8cc] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [5df5f87a] Running /usr/bin/env bundle check --path /var/www/html/hermezs/shared/bundle as root@hermes-host.42.us.org
+ DEBUG [5df5f87a] Command: cd /var/www/html/hermezs/releases/20170727185351 && /usr/bin/env bundle check --path /var/www/html/hermezs/shared/bundle
+ DEBUG [5df5f87a] 	/usr/bin/env: 
+ DEBUG [5df5f87a] 	bundle
+ DEBUG [5df5f87a] 	: No such file or directory
+ DEBUG [5df5f87a] 	
+ DEBUG [5df5f87a] Finished in 0.017 seconds with exit status 127 (failed).
+  INFO [a9abd2c0] Running /usr/bin/env bundle install --path /var/www/html/hermezs/shared/bundle --without development test --deployment --quiet as root@hermes-host.42.us.org
+ DEBUG [a9abd2c0] Command: cd /var/www/html/hermezs/releases/20170727185351 && /usr/bin/env bundle install --path /var/www/html/hermezs/shared/bundle --without development test --deployment --quiet
+ DEBUG [a9abd2c0] 	/usr/bin/env: 
+ DEBUG [a9abd2c0] 	bundle
+ DEBUG [a9abd2c0] 	: No such file or directory
+ DEBUG [a9abd2c0] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-27 11:55:13 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bb9bb81b] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [bb9bb81b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bb9bb81b] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [83417075] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [83417075] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [83417075] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [9b170e32] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [9b170e32] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [9b170e32] 	a0ace58c13d41a637172c463d5235d84c4172d0d	HEAD
+  INFO [9b170e32] Finished in 0.405 seconds with exit status 0 (successful).
+  INFO [9d62c973] Running /usr/bin/env mkdir -p /var/www/html/hermez/shared /var/www/html/hermez/releases as root@hermes-host.42.us.org
+ DEBUG [9d62c973] Command: /usr/bin/env mkdir -p /var/www/html/hermez/shared /var/www/html/hermez/releases
+  INFO [9d62c973] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [073b53eb] Running /usr/bin/env mkdir -p /var/www/html/hermez/shared/public/assets as root@hermes-host.42.us.org
+ DEBUG [073b53eb] Command: /usr/bin/env mkdir -p /var/www/html/hermez/shared/public/assets
+  INFO [073b53eb] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [8d767279] Running [ -f /var/www/html/hermez/current/REVISION ] as root@hermes-host.42.us.org
+ DEBUG [8d767279] Command: [ -f /var/www/html/hermez/current/REVISION ]
+ DEBUG [8d767279] Finished in 0.012 seconds with exit status 1 (failed).
+ DEBUG [7492e311] Running [ -f /var/www/html/hermez/repo/HEAD ] as root@hermes-host.42.us.org
+ DEBUG [7492e311] Command: [ -f /var/www/html/hermez/repo/HEAD ]
+ DEBUG [7492e311] Finished in 0.013 seconds with exit status 1 (failed).
+ DEBUG [d19dbcc4] Running if test ! -d /var/www/html/hermez; then echo "Directory does not exist '/var/www/html/hermez'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [d19dbcc4] Command: if test ! -d /var/www/html/hermez; then echo "Directory does not exist '/var/www/html/hermez'" 1>&2; false; fi
+ DEBUG [d19dbcc4] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [f4f6b84e] Running /usr/bin/env git clone --mirror git@github.com:all-hack/hermez.git /var/www/html/hermez/repo as root@hermes-host.42.us.org
+ DEBUG [f4f6b84e] Command: cd /var/www/html/hermez && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git clone --mirror git@github.com:all-hack/hermez.git /var/www/html/hermez/repo )
+ DEBUG [f4f6b84e] 	Cloning into bare repository '/var/www/html/hermez/repo'...
+ DEBUG [f4f6b84e] 	
+ DEBUG [f4f6b84e] 	remote: Counting objects: 1158, done.[K
+ DEBUG [f4f6b84e] 	
+ DEBUG [f4f6b84e] 	remote: Compressing objects:   0% (1/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:   1% (7/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:   2% (14/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:   3% (21/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:   4% (27/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:   5% (34/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:   6% (41/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:   7% (47/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:   8% (54/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:   9% (61/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  10% (67/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  11% (74/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  12% (81/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  13% (87/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  14% (94/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  15% (101/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  16% (107/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  17% (114/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  18% (121/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  19% (127/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  20% (134/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  21% (141/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  22% (147/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  23% (154/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  24% (161/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  25% (167/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  26% (174/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  27% (181/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  28% (187/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  29% (194/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  30% (201/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  31% (207/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  32% (214/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  33% (221/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  34% (227/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  35% (234/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  36% (241/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  37% (247/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  38% (254/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  39% (261/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  40% (267/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  41% (274/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  42% (281/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  43% (287/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  44% (294/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  45% (301/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  46% (307/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  47% (314/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  48% (321/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  49% (327/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  50% (334/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  51% (341/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  52% (347/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  53% (354/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  54% (361/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  55% (367/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  56% (374/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  57% (381/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  58% (387/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  59% (394/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  60% (401/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  61% (407/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  62% (414/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  63% (421/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  64% (427/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  65% (434/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  66% (441/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  67% (447/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  68% (454/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  69% (461/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  70% (467/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  71% (474/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  72% (481/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  73% (487/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  74% (494/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  75% (501/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  76% (507/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  77% (514/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  78% (521/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  79% (527/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  80% (534/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  81% (541/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  82% (547/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  83% (554/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  84% (561/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  85% (567/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  86% (574/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  87% (581/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  88% (587/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  89% (594/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  90% (601/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  91% (607/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  92% (614/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  93% (621/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  94% (627/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  95% (634/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  96% (641/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  97% (647/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  98% (654/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects:  99% (661/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects: 100% (667/667)   [K
+ DEBUG [f4f6b84e] 	remote: Compressing objects: 100% (667/667), done.[K
+ DEBUG [f4f6b84e] 	
+ DEBUG [f4f6b84e] 	Receiving objects:   0% (1/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:   1% (12/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:   2% (24/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:   3% (35/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:   4% (47/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:   5% (58/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:   6% (70/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:   7% (82/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:   8% (93/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:   9% (105/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  10% (116/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  11% (128/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  12% (139/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  13% (151/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  14% (163/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  15% (174/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  16% (186/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  17% (197/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  18% (209/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  19% (221/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  20% (232/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  21% (244/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  22% (255/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  23% (267/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  24% (278/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  25% (290/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  26% (302/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  27% (313/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  28% (325/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  29% (336/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  30% (348/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  31% (359/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  32% (371/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  33% (383/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  34% (394/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  35% (406/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  36% (417/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  37% (429/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  38% (441/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  39% (452/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  40% (464/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  41% (475/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  42% (487/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  43% (498/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  44% (510/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  45% (522/1158)   
+ DEBUG [f4f6b84e] 	Receiving objects:  46% (533/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  47% (545/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  48% (556/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  49% (568/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  50% (579/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  51% (591/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  52% (603/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  53% (614/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  54% (626/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  55% (637/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  56% (649/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  57% (661/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  58% (672/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  59% (684/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  60% (695/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  61% (707/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  62% (718/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  63% (730/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  64% (742/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  65% (753/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  66% (765/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  67% (776/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  68% (788/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  69% (800/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  70% (811/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  71% (823/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  72% (834/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  73% (846/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  74% (857/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  75% (869/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  76% (881/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  77% (892/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  78% (904/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  79% (915/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  80% (927/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  81% (938/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  82% (950/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  83% (962/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  84% (973/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  85% (985/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  86% (996/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  87% (1008/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  88% (1020/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  89% (1031/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  90% (1043/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  91% (1054/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  92% (1066/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  93% (1077/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  94% (1089/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  95% (1101/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  96% (1112/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	remote: Total 1158 (delta 28), reused 828 (delta 28), pack-reused 330[K
+ DEBUG [f4f6b84e] 	Receiving objects:  97% (1124/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  98% (1135/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects:  99% (1147/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects: 100% (1158/1158), 1.24 MiB | 2.46 MiB/s   
+ DEBUG [f4f6b84e] 	Receiving objects: 100% (1158/1158), 3.12 MiB | 2.46 MiB/s, done.
+ DEBUG [f4f6b84e] 	
+ DEBUG [f4f6b84e] 	Resolving deltas:   0% (1/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:   1% (2/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:   7% (11/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:   9% (14/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  11% (17/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  12% (19/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  13% (21/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  14% (22/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  18% (29/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  23% (36/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  25% (40/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  27% (43/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  31% (49/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  35% (55/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  38% (59/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  40% (62/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  42% (66/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  43% (67/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  46% (71/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  50% (77/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  51% (80/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  54% (84/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  57% (88/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  59% (92/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  61% (94/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  62% (96/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  63% (98/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  64% (99/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  73% (113/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  74% (115/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  76% (118/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  78% (121/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  79% (123/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  80% (124/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  81% (126/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  85% (131/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  87% (135/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  89% (138/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  91% (141/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  92% (142/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  93% (144/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  94% (146/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  95% (147/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  96% (148/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas:  98% (151/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas: 100% (154/154)   
+ DEBUG [f4f6b84e] 	Resolving deltas: 100% (154/154), done.
+ DEBUG [f4f6b84e] 	
+ DEBUG [f4f6b84e] 	Checking connectivity... 
+ DEBUG [f4f6b84e] 	done.
+  INFO [f4f6b84e] Finished in 1.329 seconds with exit status 0 (successful).
+ DEBUG [6b5635ce] Running if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [6b5635ce] Command: if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi
+ DEBUG [6b5635ce] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [d5826077] Running /usr/bin/env git remote set-url origin git@github.com:all-hack/hermez.git as root@hermes-host.42.us.org
+ DEBUG [d5826077] Command: cd /var/www/html/hermez/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git remote set-url origin git@github.com:all-hack/hermez.git )
+  INFO [d5826077] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [3dac546c] Running /usr/bin/env git remote update --prune as root@hermes-host.42.us.org
+ DEBUG [3dac546c] Command: cd /var/www/html/hermez/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [3dac546c] 	Fetching origin
+ DEBUG [3dac546c] 	
+  INFO [3dac546c] Finished in 0.427 seconds with exit status 0 (successful).
+ DEBUG [144839fd] Running if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [144839fd] Command: if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi
+ DEBUG [144839fd] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [cbc9b818] Running /usr/bin/env mkdir -p /var/www/html/hermez/releases/20170727185514 as root@hermes-host.42.us.org
+ DEBUG [cbc9b818] Command: cd /var/www/html/hermez/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env mkdir -p /var/www/html/hermez/releases/20170727185514 )
+  INFO [cbc9b818] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [7c719165] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/hermez/releases/20170727185514 as root@hermes-host.42.us.org
+ DEBUG [7c719165] Command: cd /var/www/html/hermez/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/hermez/releases/20170727185514 )
+  INFO [7c719165] Finished in 0.158 seconds with exit status 0 (successful).
+ DEBUG [c2c58da4] Running if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [c2c58da4] Command: if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi
+ DEBUG [c2c58da4] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [2b67514e] Running /usr/bin/env git rev-list --max-count=1 master as root@hermes-host.42.us.org
+ DEBUG [2b67514e] Command: cd /var/www/html/hermez/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [2b67514e] 	a0ace58c13d41a637172c463d5235d84c4172d0d
+ DEBUG [2b67514e] 	
+ DEBUG [2b67514e] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [9ad246d2] Running if test ! -d /var/www/html/hermez/releases/20170727185514; then echo "Directory does not exist '/var/www/html/hermez/releases/20170727185514'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [9ad246d2] Command: if test ! -d /var/www/html/hermez/releases/20170727185514; then echo "Directory does not exist '/var/www/html/hermez/releases/20170727185514'" 1>&2; false; fi
+ DEBUG [9ad246d2] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [ce1c783d] Running /usr/bin/env echo "a0ace58c13d41a637172c463d5235d84c4172d0d" >> REVISION as root@hermes-host.42.us.org
+ DEBUG [ce1c783d] Command: cd /var/www/html/hermez/releases/20170727185514 && /usr/bin/env echo "a0ace58c13d41a637172c463d5235d84c4172d0d" >> REVISION
+  INFO [ce1c783d] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [1b61db71] Running /usr/bin/env mkdir -p /var/www/html/hermez/releases/20170727185514/public as root@hermes-host.42.us.org
+ DEBUG [1b61db71] Command: /usr/bin/env mkdir -p /var/www/html/hermez/releases/20170727185514/public
+  INFO [1b61db71] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [77d8687a] Running [ -L /var/www/html/hermez/releases/20170727185514/public/assets ] as root@hermes-host.42.us.org
+ DEBUG [77d8687a] Command: [ -L /var/www/html/hermez/releases/20170727185514/public/assets ]
+ DEBUG [77d8687a] Finished in 0.012 seconds with exit status 1 (failed).
+ DEBUG [3a79486c] Running [ -d /var/www/html/hermez/releases/20170727185514/public/assets ] as root@hermes-host.42.us.org
+ DEBUG [3a79486c] Command: [ -d /var/www/html/hermez/releases/20170727185514/public/assets ]
+ DEBUG [3a79486c] Finished in 0.012 seconds with exit status 1 (failed).
+  INFO [2600f6d1] Running /usr/bin/env ln -s /var/www/html/hermez/shared/public/assets /var/www/html/hermez/releases/20170727185514/public/assets as root@hermes-host.42.us.org
+ DEBUG [2600f6d1] Command: /usr/bin/env ln -s /var/www/html/hermez/shared/public/assets /var/www/html/hermez/releases/20170727185514/public/assets
+  INFO [2600f6d1] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [fb0f1485] Running if test ! -d /var/www/html/hermez/releases/20170727185514; then echo "Directory does not exist '/var/www/html/hermez/releases/20170727185514'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [fb0f1485] Command: if test ! -d /var/www/html/hermez/releases/20170727185514; then echo "Directory does not exist '/var/www/html/hermez/releases/20170727185514'" 1>&2; false; fi
+ DEBUG [fb0f1485] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [dd6d45e3] Running /usr/bin/env bundle check --path /var/www/html/hermez/shared/bundle as root@hermes-host.42.us.org
+ DEBUG [dd6d45e3] Command: cd /var/www/html/hermez/releases/20170727185514 && /usr/bin/env bundle check --path /var/www/html/hermez/shared/bundle
+ DEBUG [dd6d45e3] 	/usr/bin/env: 
+ DEBUG [dd6d45e3] 	bundle
+ DEBUG [dd6d45e3] 	: No such file or directory
+ DEBUG [dd6d45e3] 	
+ DEBUG [dd6d45e3] Finished in 0.017 seconds with exit status 127 (failed).
+  INFO [be8b495c] Running /usr/bin/env bundle install --path /var/www/html/hermez/shared/bundle --without development test --deployment --quiet as root@hermes-host.42.us.org
+ DEBUG [be8b495c] Command: cd /var/www/html/hermez/releases/20170727185514 && /usr/bin/env bundle install --path /var/www/html/hermez/shared/bundle --without development test --deployment --quiet
+ DEBUG [be8b495c] 	/usr/bin/env: 
+ DEBUG [be8b495c] 	bundle
+ DEBUG [be8b495c] 	: No such file or directory
+ DEBUG [be8b495c] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-27 11:56:37 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1cd9fdc7] Running /usr/bin/env mkdir -p /tmp as root@hermes-host.42.us.org
+ DEBUG [1cd9fdc7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1cd9fdc7] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 0.0%
+  INFO Uploading /tmp/git-ssh-hermez-production-oliverbelanger.sh 100.0%
+  INFO [a38dd4ca] Running /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh as root@hermes-host.42.us.org
+ DEBUG [a38dd4ca] Command: /usr/bin/env chmod 700 /tmp/git-ssh-hermez-production-oliverbelanger.sh
+  INFO [a38dd4ca] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [fae48b53] Running /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD as root@hermes-host.42.us.org
+ DEBUG [fae48b53] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git ls-remote git@github.com:all-hack/hermez.git HEAD )
+ DEBUG [fae48b53] 	a0ace58c13d41a637172c463d5235d84c4172d0d	HEAD
+  INFO [fae48b53] Finished in 0.405 seconds with exit status 0 (successful).
+  INFO [aa5d51e9] Running /usr/bin/env mkdir -p /var/www/html/hermez/shared /var/www/html/hermez/releases as root@hermes-host.42.us.org
+ DEBUG [aa5d51e9] Command: /usr/bin/env mkdir -p /var/www/html/hermez/shared /var/www/html/hermez/releases
+  INFO [aa5d51e9] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [b5479733] Running /usr/bin/env mkdir -p /var/www/html/hermez/shared/public/assets as root@hermes-host.42.us.org
+ DEBUG [b5479733] Command: /usr/bin/env mkdir -p /var/www/html/hermez/shared/public/assets
+  INFO [b5479733] Finished in 0.010 seconds with exit status 0 (successful).
+ DEBUG [6c92db7f] Running [ -f /var/www/html/hermez/current/REVISION ] as root@hermes-host.42.us.org
+ DEBUG [6c92db7f] Command: [ -f /var/www/html/hermez/current/REVISION ]
+ DEBUG [6c92db7f] Finished in 0.012 seconds with exit status 1 (failed).
+ DEBUG [9d54a443] Running [ -f /var/www/html/hermez/repo/HEAD ] as root@hermes-host.42.us.org
+ DEBUG [9d54a443] Command: [ -f /var/www/html/hermez/repo/HEAD ]
+ DEBUG [9d54a443] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/html/hermez/repo
+ DEBUG [dff1076b] Running if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [dff1076b] Command: if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi
+ DEBUG [dff1076b] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [0e7159a7] Running /usr/bin/env git remote set-url origin git@github.com:all-hack/hermez.git as root@hermes-host.42.us.org
+ DEBUG [0e7159a7] Command: cd /var/www/html/hermez/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git remote set-url origin git@github.com:all-hack/hermez.git )
+  INFO [0e7159a7] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [b00dd506] Running /usr/bin/env git remote update --prune as root@hermes-host.42.us.org
+ DEBUG [b00dd506] Command: cd /var/www/html/hermez/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [b00dd506] 	Fetching origin
+ DEBUG [b00dd506] 	
+  INFO [b00dd506] Finished in 0.409 seconds with exit status 0 (successful).
+ DEBUG [f809a032] Running if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [f809a032] Command: if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi
+ DEBUG [f809a032] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [ebd1a601] Running /usr/bin/env mkdir -p /var/www/html/hermez/releases/20170727185638 as root@hermes-host.42.us.org
+ DEBUG [ebd1a601] Command: cd /var/www/html/hermez/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env mkdir -p /var/www/html/hermez/releases/20170727185638 )
+  INFO [ebd1a601] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [d604ab2e] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/hermez/releases/20170727185638 as root@hermes-host.42.us.org
+ DEBUG [d604ab2e] Command: cd /var/www/html/hermez/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/hermez/releases/20170727185638 )
+  INFO [d604ab2e] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [b49141a9] Running if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [b49141a9] Command: if test ! -d /var/www/html/hermez/repo; then echo "Directory does not exist '/var/www/html/hermez/repo'" 1>&2; false; fi
+ DEBUG [b49141a9] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [0cfd53d4] Running /usr/bin/env git rev-list --max-count=1 master as root@hermes-host.42.us.org
+ DEBUG [0cfd53d4] Command: cd /var/www/html/hermez/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-hermez-production-oliverbelanger.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [0cfd53d4] 	a0ace58c13d41a637172c463d5235d84c4172d0d
+ DEBUG [0cfd53d4] 	
+ DEBUG [0cfd53d4] Finished in 0.030 seconds with exit status 0 (successful).
+ DEBUG [b42261d9] Running if test ! -d /var/www/html/hermez/releases/20170727185638; then echo "Directory does not exist '/var/www/html/hermez/releases/20170727185638'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [b42261d9] Command: if test ! -d /var/www/html/hermez/releases/20170727185638; then echo "Directory does not exist '/var/www/html/hermez/releases/20170727185638'" 1>&2; false; fi
+ DEBUG [b42261d9] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [2407d53e] Running /usr/bin/env echo "a0ace58c13d41a637172c463d5235d84c4172d0d" >> REVISION as root@hermes-host.42.us.org
+ DEBUG [2407d53e] Command: cd /var/www/html/hermez/releases/20170727185638 && /usr/bin/env echo "a0ace58c13d41a637172c463d5235d84c4172d0d" >> REVISION
+  INFO [2407d53e] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [18747da7] Running /usr/bin/env mkdir -p /var/www/html/hermez/releases/20170727185638/public as root@hermes-host.42.us.org
+ DEBUG [18747da7] Command: /usr/bin/env mkdir -p /var/www/html/hermez/releases/20170727185638/public
+  INFO [18747da7] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [f9eb4a7b] Running [ -L /var/www/html/hermez/releases/20170727185638/public/assets ] as root@hermes-host.42.us.org
+ DEBUG [f9eb4a7b] Command: [ -L /var/www/html/hermez/releases/20170727185638/public/assets ]
+ DEBUG [f9eb4a7b] Finished in 0.011 seconds with exit status 1 (failed).
+ DEBUG [643272f1] Running [ -d /var/www/html/hermez/releases/20170727185638/public/assets ] as root@hermes-host.42.us.org
+ DEBUG [643272f1] Command: [ -d /var/www/html/hermez/releases/20170727185638/public/assets ]
+ DEBUG [643272f1] Finished in 0.009 seconds with exit status 1 (failed).
+  INFO [554ade24] Running /usr/bin/env ln -s /var/www/html/hermez/shared/public/assets /var/www/html/hermez/releases/20170727185638/public/assets as root@hermes-host.42.us.org
+ DEBUG [554ade24] Command: /usr/bin/env ln -s /var/www/html/hermez/shared/public/assets /var/www/html/hermez/releases/20170727185638/public/assets
+  INFO [554ade24] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [16c27931] Running if test ! -d /var/www/html/hermez/releases/20170727185638; then echo "Directory does not exist '/var/www/html/hermez/releases/20170727185638'" 1>&2; false; fi as root@hermes-host.42.us.org
+ DEBUG [16c27931] Command: if test ! -d /var/www/html/hermez/releases/20170727185638; then echo "Directory does not exist '/var/www/html/hermez/releases/20170727185638'" 1>&2; false; fi
+ DEBUG [16c27931] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [164339a7] Running /usr/bin/env bundle check --path /var/www/html/hermez/shared/bundle as root@hermes-host.42.us.org
+ DEBUG [164339a7] Command: cd /var/www/html/hermez/releases/20170727185638 && /usr/bin/env bundle check --path /var/www/html/hermez/shared/bundle
+ DEBUG [164339a7] 	[31mYour Ruby version is 2.1.5, but your Gemfile specified 2.3.1[0m
+ DEBUG [164339a7] Finished in 0.455 seconds with exit status 18 (failed).
+  INFO [40976ef3] Running /usr/bin/env bundle install --path /var/www/html/hermez/shared/bundle --without development test --deployment --quiet as root@hermes-host.42.us.org
+ DEBUG [40976ef3] Command: cd /var/www/html/hermez/releases/20170727185638 && /usr/bin/env bundle install --path /var/www/html/hermez/shared/bundle --without development test --deployment --quiet
+ DEBUG [40976ef3] 	[31mYour Ruby version is 2.1.5, but your Gemfile specified 2.3.1[0m
