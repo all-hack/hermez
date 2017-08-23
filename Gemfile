@@ -17,12 +17,12 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 group :development do
-  gem 'web-console', '>= 3.3.0'
-  gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'web-console', '>= 3.3.0'  
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem "capistrano", "~> 3.8"
   gem 'capistrano-rails', '~> 1.3'
+  gem 'listen', '>= 3.0.5', '< 3.2'
 end
 
 gem 'parallel'
