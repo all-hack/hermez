@@ -10,7 +10,7 @@
             = "#{elem.login}"
 
           - if @selected_cadets.index {|x| x.id == elem.id} == nil
-            = submit_tag :add, class: "submit col-auto"
+            = submit_tag :+, class: "submit col-auto"
           - else
             .submit.col-auto.bg-success
               ✓
