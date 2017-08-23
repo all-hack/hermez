@@ -24,8 +24,8 @@ class CadetController < ApplicationController
 
   def import_cadets_fremont
     # Create the client with your credentials
-    Rails.logger.info ENV['UID_42']
-    Rails.logger.info ENV['SECRET_42']
+    Rails.logger.info "uid: #{ENV['UID_42']}"
+    Rails.logger.info "secret: #{ENV['SECRET_42']}"
     client = OAuth2::Client.new(ENV['UID_42'], ENV['SECRET_42'], site: "https://api.intra.42.fr")
     # Get an access token
     token = client.client_credentials.get_token
