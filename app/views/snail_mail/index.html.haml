@@ -23,11 +23,12 @@
             %li.list-group-item
               .input-group
                 = hidden_field_tag :cadet_login, "", value: "#{elem.login}", class: "form-control hidden"
-              .col-9
-                = "#{elem.name} | #{elem.login}"
-              = submit_tag :remove, class: "submit btn-danger col-3"
+              .col-12.text-center
+                .col-auto
+                  = "#{elem.name} ———"
+                  = "#{elem.login}"
+                = submit_tag :remove, class: "submit btn-danger col-auto"
   
-
 
 
 

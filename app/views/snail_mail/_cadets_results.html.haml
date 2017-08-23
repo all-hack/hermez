@@ -4,10 +4,13 @@
       %li.list-group-item
         .input-group
           = hidden_field_tag :cadet_login, "", value: "#{elem.login}", class: "form-control hidden"
-        .col-9
-          = "#{elem.name} | #{elem.login}"          
-        - if @selected_cadets.index {|x| x.id == elem.id} == nil
-          = submit_tag :add, class: "submit col-3"
-        - else
-          .submit.col-3.bg-success
-            ✓
+        .col-12.text-center
+          .col-auto
+            = "#{elem.name} ———"
+            = "#{elem.login}"
+
+          - if @selected_cadets.index {|x| x.id == elem.id} == nil
+            = submit_tag :add, class: "submit col-auto"
+          - else
+            .submit.col-auto.bg-success
+              ✓

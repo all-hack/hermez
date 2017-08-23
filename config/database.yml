@@ -14,7 +14,7 @@
 #
 development:
   adapter:  postgresql
-  host:     /var/run/postgresql
+  host:     localhost
   encoding: unicode
   database: hermez_development
   pool:     5
